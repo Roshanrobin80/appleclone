@@ -1,7 +1,7 @@
 ul {
 list-style-type: none;
 overflow: hidden;
-background-color:gray;
+background-color:white;
 position: fixed;
 width: 100%;
 margin-top: 0;
@@ -19,10 +19,17 @@ float: left;
 padding-left: 25px;
 margin-left: 20px;
 }
+.li1:hover{
+    color:black;
+}
+#li1:hover{
+    color:black;
+    cursor: pointer;
+}
 
 li a {
 display: block;
-color: white;
+color: black;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -30,5 +37,95 @@ text-decoration: none;
 
 
 li a:hover {
-background-color: #111;
+background-color: white;
+}
+img{
+    width: 100%;
+    height: fit-content;
+}
+.d1{
+    position: relative;
+}
+.b1{
+    background-color:rgba(255, 255, 255, 0) ;
+    color:rgb(41, 171, 223);
+    border-radius: 40px;
+    border: 1px solid rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 82%;
+    left: 48%;
+    font-size: large;
+}
+.b1:hover{
+    background-color:rgb(41, 171, 223) ;
+    color: white;
+}
+.d2{
+    position: relative;
+}
+.b2{
+    background-color:rgba(255, 255, 255, 0) ;
+    color:rgb(41, 171, 223);
+    border-radius: 40px;
+    border: 1px solid rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 28%;
+    left: 42%;
+    font-size: large;
+}
+.b2:hover{
+    background-color:rgb(41, 171, 223) ;
+    color: white;
+}
+.b3{
+    background-color:rgba(255, 255, 255, 0) ;
+    color:rgb(41, 171, 223);
+    border-radius: 40px;
+    border: 1px solid rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 28%;
+    left: 51%;
+    font-size: large;
+}
+
+.b3:hover{
+    background-color:rgb(41, 171, 223) ;
+    color: white;
+}
+.d3{
+    position: relative;
+}
+.b4{
+    background-color:rgba(255, 255, 255, 0) ;
+    color:rgb(41, 171, 223);
+    border-radius: 40px;
+    border: 1px solid rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 28%;
+    left: 42%;
+    font-size: large;
+}
+.b4:hover{
+    background-color:rgb(41, 171, 223) ;
+    color: white;
+}
+.b5{
+    background-color:rgba(255, 255, 255, 0) ;
+    color:rgb(41, 171, 223);
+    border-radius: 40px;
+    border: 1px solid rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 28%;
+    left: 51%;
+    font-size: large;
+}
+
+.b5:hover{
+    background-color:rgb(41, 171, 223) ;
+    color: white;
 }
