@@ -65,8 +65,8 @@ img{
     position: relative;
 }
 .b2{
-    background-color:rgba(255, 255, 255, 0) ;
-    color:rgb(41, 171, 223);
+    background-color:rgb(41, 171, 223);
+    color:white;
     border-radius: 40px;
     border: 1px solid rgb(41, 171, 223);
     padding: 14px 25px;
@@ -99,8 +99,8 @@ img{
     position: relative;
 }
 .b4{
-    background-color:rgba(255, 255, 255, 0) ;
-    color:rgb(41, 171, 223);
+    background-color:rgb(41, 171, 223);
+    color:white;
     border-radius: 40px;
     border: 1px solid rgb(41, 171, 223);
     padding: 14px 25px;
@@ -128,4 +128,64 @@ img{
 .b5:hover{
     background-color:rgb(41, 171, 223) ;
     color: white;
+}
+.d4{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.sub1,.sub2,.sub3,.sub4{
+    width: 50%;
+}
+.sub1{
+.b6{
+    background-color:gray;
+    color:black;
+    border-radius: 40px;
+    border: 0px solid rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 8%;
+    left: 19%;
+    font-size: large;
+
+}
+}
+.b6:hover{
+    background-color:white ;
+    color: black;
+}
+.b7{
+    background-color:rgba(255, 255, 255, 0) ;
+    color:white;
+    border-radius: 40px;
+    border: 1px solid white;
+    padding: 14px 25px;
+    position: absolute;
+    top: 8%;
+    left: 27%;
+    font-size: large;
+}
+
+.b7:hover{
+    background-color:white ;
+    color: black;
+}
+.sub2{
+    .b8{
+        background-color:rgba(255, 255, 255, 0) ;
+        color:rgb(41, 171, 223);
+        border-radius: 40px;
+        border: 1px solid rgb(41, 171, 223);
+        padding: 14px 25px;
+        position: absolute;
+        top: 9%;
+        left: 69%;
+        font-size: large;
+    }
+
+    .b8:hover{
+        background-color:rgb(41, 171, 223) ;
+        color: white;
+    }
 }
