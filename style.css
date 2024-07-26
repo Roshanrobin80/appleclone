@@ -1,16 +1,10 @@
 ul {
 list-style-type: none;
 overflow: hidden;
-background-color:white;
-position: fixed;
-width: 100%;
-margin-top: 0;
-margin-bottom:0 ;
-position: fixed;
+background-color:gray;
 display: flex;
+font-size: small;
 justify-content: center;
-z-index: 100;
-backdrop-filter: blur(2px);
 color: white;
 }
 
@@ -20,16 +14,16 @@ padding-left: 25px;
 margin-left: 20px;
 }
 .li1:hover{
-    color:black;
+    color:white;
 }
 #li1:hover{
-    color:black;
+    color:;
     cursor: pointer;
 }
 
 li a {
 display: block;
-color: black;
+color: white;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
@@ -37,13 +31,19 @@ text-decoration: none;
 
 
 li a:hover {
-background-color: white;
+background-color: black;
 }
 img{
     width: 100%;
     height: fit-content;
 }
 .d1{
+    text-align: center;
+    background-color: rgb(102, 84, 84);
+    color: white;
+    font-size: medium;
+}
+.d2{
     position: relative;
 }
 .b1{
@@ -61,7 +61,7 @@ img{
     background-color:rgb(41, 171, 223) ;
     color: white;
 }
-.d2{
+.d3{
     position: relative;
 }
 .b2{
@@ -95,7 +95,7 @@ img{
     background-color:rgb(41, 171, 223) ;
     color: white;
 }
-.d3{
+.d4{
     position: relative;
 }
 .b4{
@@ -129,7 +129,7 @@ img{
     background-color:rgb(41, 171, 223) ;
     color: white;
 }
-.d4{
+.d5{
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -220,37 +220,86 @@ img{
         color: white;
     }
     .b11{
-        background-color:gray;
-        color:black;
+        background-color: rgb(41, 171, 223);
+        color:white;
         border-radius: 40px;
         border: 0px solid rgb(41, 171, 223);
         padding: 14px 25px;
         position: absolute;
-        top: 8%;
-        left: 19%;
+        top: 42%;
+        left: 67%;
         font-size: large;
     
     }
     
     .b11:hover{
-        background-color:white ;
-        color: black;
+        background-color: rgb(41, 171, 223) ;
+        color: white;
     }
     .b12{
-        background-color:rgba(255, 255, 255, 0) ;
-        color:white;
+        background-color:white ;
+        color: rgb(41, 171, 223);
         border-radius: 40px;
-        border: 1px solid white;
+        border: 1px solid  rgb(41, 171, 223);
         padding: 14px 25px;
         position: absolute;
-        top: 8%;
-        left: 27%;
+        top: 42%;
+        left: 75%;
         font-size: large;
     }
     
     .b12:hover{
-        background-color:white ;
-        color: black;
+        background-color: rgb(41, 171, 223) ;
+        color:white;
     }
+
+.b13{
+    background-color:black;
+    color:white;
+    border-radius: 40px;
+    border: 0px solid rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 74%;
+    left: 19%;
+    font-size: large;
+}
+.b13:hover{
+    background-color:black ;
+    color: white;
+}
+.b14{
+    background-color:rgba(255, 255, 255, 0) ;
+    color:black;
+    border-radius: 40px;
+    border: 1px solid black;
+    padding: 14px 25px;
+    position: absolute;
+    top: 74%;
+    left: 27%;
+    font-size: large;
+}
+
+.b14:hover{
+    background-color:black ;
+    color: white;
+}
+.b15{
+    background-color:rgb(41, 171, 223) ;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid  rgb(41, 171, 223);
+    padding: 14px 25px;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    font-size: large;
+}
+
+.b15:hover{
+    background-color:rgb(41, 171, 223) ;
+    color:white ;
+}
+
 
 
